@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Test Form</title>
+        <link rel="stylesheet" href="css/test.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="form">
+            <h2 class="text-header">Задать вопрос</h2>
+            <form method="post"  action="https://60376bfd5435040017722533.mockapi.io/form">
+                <input type="text" name="name" placeholder="Фамилия Имя Отчество *" pattern="^[А-Яа-яЁё\s\-]+$">
+                <input type="tel"  name="phone" placeholder="Телефон *" required pattern="^[0-9\s\-\+]+$" >
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="submit" name="send" value="ОТПРАВИТЬ ЗАПРОС">
+                <!-- https://60376bfd5435040017722533.mockapi.io/form. -->
+                <!-- https://60376bfd5435040017722533.mockapi.io/formRej. -->
+
+            </form>
+            </div>
+        </div>
+    </body>
+</html>
